@@ -104,7 +104,7 @@ class Encryption extends ExportOptions
      */
     protected function __getClearLead()
     {
-        if (!$this->clear_lead) {
+        if ($this->clear_lead === null) {
             return null;
         }
 
