@@ -32,5 +32,8 @@
         "psr-4": {
             "Tests\\Shaka\\": "tests"
         }
+    },
+    "scripts": {
+        "app:tests": "./vendor/bin/phpunit tests"
     }
 }

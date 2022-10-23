@@ -2,3 +2,8 @@ WEBVTT
 
 00:01.000 --> 00:10.000
 <Credit:> Amin Yazdanpanah
+
+00:11.000 --> 00:20.000
+This format requires two blank lines at the end. Otherwise shaka won't be able to convert this
+https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
+

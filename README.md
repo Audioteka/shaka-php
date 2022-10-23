@@ -28,6 +28,8 @@ Shaka PHP is a library that uses **[Shaka Packager](https://github.com/google/sh
 2. This library requires a working Shaka Packager binary. Be that the binary can be located with system PATH to auto get binary file in PHP.
 You can also give the binary path on load.
 
+3. This library has been tested on Shaka Packager 2.6.1
+
 ### Getting Shaka Packager
 There are several ways you can get Shaka Packager.
 - Using **[Docker](https://www.docker.com/whatisdocker)**. Instructions are available at **[Using Docker](https://google.github.io/shaka-packager/html/docker_instructions.html)**.

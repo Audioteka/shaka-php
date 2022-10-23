@@ -49,7 +49,7 @@ class AnalysisTest extends TestCase
         //just for appveyor build
         $output = str_replace("\r\n","\n", $output);
 
-        $this->assertEquals($expected, $output);
+        $this->assertEquals(str_replace(array("\n", "\r"), '', $expected), str_replace(array("\n", "\r"), '', $output));
     }
 
     private function getAnalysis()
